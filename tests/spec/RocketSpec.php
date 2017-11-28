@@ -15,12 +15,12 @@ class RocketSpec extends ObjectBehavior
     }
 
     function it_flies_around_the_moon(){
-        if (!function_exists('rocketLaunch'))
-        {
-            throw new SkippingException(
-                'The rocket extension is not installed'
-            );
-        }
+//        if (!function_exists('rocketLaunch'))
+//        {
+//            throw new SkippingException(
+//                'The rocket extension is not installed'
+//            );
+//        }
 
         $this->flyToMoon();
 
